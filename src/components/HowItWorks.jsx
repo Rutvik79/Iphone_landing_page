@@ -4,7 +4,7 @@ import { chipImg, frameImg, frameVideo } from "../utils";
 import { useRef } from "react";
 import { animateWithGsap } from "../utils/animations";
 
-const HowITWorks = () => {
+const HowItWorks = () => {
   const videoRef = useRef();
 
   useGSAP(() => {
@@ -100,4 +100,4 @@ const HowITWorks = () => {
   );
 };
 
-export default HowITWorks;
+export default HowItWorks;
